@@ -8,7 +8,7 @@ rpi-update --assume-yes
 apt-get install apt-transport-https -y --force-yes
 
 ## install chrome
-apt-get install chromium-browser
+apt-get install chromium --yes
 
 ## Add CUPS & Gutenprint
 wget https://raw.githubusercontent.com/DoctorLar/rpi-cups-gutenprint/master/install.sh
