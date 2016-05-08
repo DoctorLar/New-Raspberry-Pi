@@ -1,7 +1,5 @@
 # New-Raspberry-Pi
 
-### Installation ###
-
 #### Initial Pi setup ####
 
 1. Download the latest raspbian instance from https://www.raspberrypi.org/downloads
@@ -21,7 +19,7 @@
 #### Installation ####
 
 1. Download the install file `wget https://raw.githubusercontent.com/DoctorLar/New-Raspberry-Pi/master/config.sh`
-2. Make it executable `chmod +x configure.sh`
-3. Execute it with root permissions `sudo ./configure.sh`
+2. Make it executable `chmod +x config.sh`
+3. Execute it with root permissions `sudo ./config.sh`
 
 This installation takes over an hour.......it does lots of stuff!
