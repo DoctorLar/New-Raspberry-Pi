@@ -16,13 +16,14 @@ chmod +x install.sh
 sudo ./install.sh
 
 ## Install tightvnc
-sudo apt-get install tightvncserver
+sudo apt-get install tightvncserver --assume-yes
 tightvncserver
 raspberry --force-yes
 raspberry --force-yes
 n --assume-no
-cd /etc/init.d/
 wget https://raw.githubusercontent.com/DoctorLar/New-Raspberry-Pi/master/vncboot
+mv ~vncboot /etc/init.d/
 chmod 755 /etc/init.d/vncboot
 update-rc.d /etc/init.d/vncboot defaults
 update-rc.d vncboot defaults
+sudo reboot
