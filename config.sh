@@ -26,7 +26,7 @@ raspberry --force-yes
 raspberry --force-yes
 n --assume-no
 wget https://raw.githubusercontent.com/DoctorLar/New-Raspberry-Pi/master/vncboot
-mv ~vncboot /etc/init.d/
+mv vncboot /etc/init.d/
 chmod 755 /etc/init.d/vncboot
 update-rc.d /etc/init.d/vncboot defaults
 update-rc.d vncboot defaults
